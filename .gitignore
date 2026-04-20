@@ -1,0 +1,25 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.out
+*.toc
+*.synctex.gz
+
+# Output PDF (opcjonalnie — usuń tę linię jeśli chcesz commitować PDF)
+poster.pdf
+
+# Aggregate wandb CSV exports (nadmiarowe, dane są w per-organ plikach)
+unet2d.csv
+unet3d.csv
+unet2.5d.csv
+mednext.csv
+swin-unetr.csv
+
+# Stare/nieużywane obrazki
+multiorgan_all_methods_comparision.png
+multiorgan_comparison.png
+beamerthemeconfposter.sty
